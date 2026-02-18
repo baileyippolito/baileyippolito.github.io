@@ -1,0 +1,32 @@
+.bg-body-tertiary {
+    background: #C5D2DF !important;
+}
+
+img {
+    width: 100%;
+}
+
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
