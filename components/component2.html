@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Your name should be here: Mini-Design System: Components</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="../img/favicon2.png">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/sidebars.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-success border-bottom-0  sticky-top">
+        <!-- Navbar toggle button (hamburger icon) -->
+       
+            
+            <button class="navbar-toggler d-block d-md-none navbar-hieght"
+                type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#sidebar"
+                aria-controls="sidebar">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+        
+    </nav>
+
+    </nav>
+<!-- This topbar toggle to the off canvas -->
+    <div class="offcanvas offcanvas-start bg-success d-md-block" 
+        tabindex="-1" id="sidebar"
+        aria-labelledby="sidebarLabel">
+        <div class="offcanvas-header">
+        
+         <h1 class = "d-flex align-items-center text-center pb-3 link-dark text-decoration-none border-bottom" >Your large logo</h1>
+            <button type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close">
+            </button>
+        </div>
+        <div class="offcanvas-body ">
+            <ul class="nav flex-column">
+                <ul class="list-unstyled ps-0">
+                  <li class="mb-1">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-dark d-inline-flex text-decoration-none rounded">
+                        <div class = "offCanvas-home"> 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+                          </svg>
+                          Home</div>
+
+                      </a></li>
+                      </ul>
+                  </li>
+                    <li class="mb-1">
+                      <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+                      data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="false">
+                      Foundations
+                      </button>
+                      <div class="collapse" id="foundations-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                          <li><a href="../foundation/type.html" class="link-dark d-inline-flex text-decoration-none rounded ">Typography</a></li>
+                          <li><a href="../foundation/color.html" class="link-dark d-inline-flex text-decoration-none rounded">Color</a></li>
+                          <li><a href="../foundation/logo.html" class="link-dark d-inline-flex text-decoration-none rounded">Logo</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+                        data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="false">
+                         Components
+                        </button>
+                        <div class="collapse  show" id="components-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="component1.html" class="link-dark d-inline-flex text-decoration-none rounded">Buttons</a></li>
+                            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded"><span class = "activeLink rounded">Cards/span></a></li>
+                            <li><a href="component3.html" class="link-dark d-inline-flex text-decoration-none rounded">Header</a></li>
+                     
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+                        data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
+                          Page Patterns
+                        </button>
+                        <div class="collapse" id="patterns-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="../patterns/page1.html" class="link-dark d-inline-flex text-decoration-none rounded">Homepage</a></li>
+                            <li><a href="../patterns/page2.html" class="link-dark d-inline-flex text-decoration-none rounded">Case Study</a></li>
+                    </ul>
+            </ul>
+        </div>
+    </div>
+<!-- This is the sidebar menu -->
+    <div class="container-fluid ">
+        <div class="row">
+            <nav id="sidebarMenu"
+                class="col-md-3 col-lg-2 d-none d-md-block bg-light sidebar shadow">
+                <div class="position-sticky bg-success vh-100">
+                    <div class="pt-3">
+                    
+                      <a href="../index.html" class="d-flex align-items-center text-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+    
+                        <img src="../img/logo_main.png" class="d-flex align-items-center text-center px-3">
+                      </a>
+                        <ul class="nav flex-column">
+                            <ul class="list-unstyled ps-0">
+                              
+                                <li class="mb-1">
+                                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+                                  data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="false">
+                                  Foundations
+                                  </button>
+                                  <div class="collapse" id="foundations-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                      <li"><a href="../foundation/type.html" class="link-dark d-inline-flex text-decoration-none rounded">Typography</a></li>
+                                      <li><a href="../foundation/color.html" class="link-dark d-inline-flex text-decoration-none rounded">Color</a></li>
+                                      <li><a href="../foundation/logo.html" class="link-dark d-inline-flex text-decoration-none rounded">Logo</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+                                    data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="false">
+                                     Components
+                                    </button>
+                                    <div class="collapse  show" id="components-collapse">
+                                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                        <li><a href="component1.html" class="link-dark d-inline-flex text-decoration-none rounded">Buttons</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded"><span class = "activeLink rounded">Cards</span></a></li>
+                                        <li><a href="component3.html" class="link-dark d-inline-flex text-decoration-none rounded">Header</a></li>
+                                 
+                                      </ul>
+                                    </div>
+                                  </li>
+                                  <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+                                    data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
+                                      Page Patterns
+                                    </button>
+                                    <div class="collapse" id="patterns-collapse">
+                                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                        <li><a href="../patterns/page1.html" class="link-dark d-inline-flex text-decoration-none rounded">Homepage</a></li>
+                                        <li><a href="../patterns/page2.html" class="link-dark d-inline-flex text-decoration-none rounded">Case Study</a></li>
+                                </ul>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 ">
+         
+      <!-- Page Content  -->
+      <div class="container-fluid overflow-auto">
+        <div class="row p-5">
+            <div id="content">
+                <h2 class="text-center montserrat-h2">Cards</h2>
+                <h4 class="montserrat-h4 mt-4">Usage</h4>
+                <p class="montserrat-body mt-4">Cards are used to preview portfolio projects. They contain the project title, a descriptive subtitle, and a concise, high-level explanation on the projects impact. Each card is labeled with tags to clearly communicate the skills utilized during the project.</p>
+                <h4 class="montserrat-h4 mt-4">Accessibility Considerations</h4>
+                <p class="montserrat-body">All card images must utilize alt text in order to be compatible with screen reader capabilities. Text and background colors are designed to be high contrast consistent with WCAG requirements.</p>
+
+                <!-- project card -->
+                <div class="card mt-4" style="width: 354px; height: 535px;">
+                  <div class="mx-3 mt-3 img-placeholder"></div>
+                  <div class="card-body">
+                    <div class="pink-tag mb-1 montserrat-micro">Systems Design</div>
+                    <div class="blue-tag mb-1 montserrat-micro">0-1 Product</div>
+                    <div class="green-tag mb-1 montserrat-micro">AI</div>
+                    <h2 class="card-title montserrat-h2 mt-2">Project Title</h2>
+                    <h4 class="card-title montserrat-h4">Subtitle</h4>
+                    <p class="card-text montserrat-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices porta porttitor. Donec volutpat ligula sapien, at ullamcorper.</p>
+                    <div class="text-center mt-4"><a href="#" class="btn-primary px-5 montserrat-body">Learn More</a></div>
+                  </div>
+                </div>
+                
+                <!-- Code example section -->
+                <div class="container mt-4">
+                  <h5 class="montserrat-h5">Code Example</h5>
+                  <div class="row">
+                      <div class="col code-background">
+                          <pre class="language-markup"><code>
+  &lt;!-- Project Card HTML --&gt;
+  &lt;div class="card mt-4" style="width: 354px; height: 535px;"&gt;
+    &lt;div class="mx-3 mt-3 img-placeholder"&gt;&lt;/div&gt;
+    &lt;div class="card-body"&gt;
+      &lt;div class="pink-tag mb-1 montserrat-micro"&gt;Systems Design&lt;/div&gt;
+      &lt;div class="blue-tag mb-1 montserrat-micro"&gt;0-1 Product&lt;/div&gt;
+      &lt;div class="green-tag mb-1 montserrat-micro"&gt;AI&lt;/div&gt;
+      &lt;h2 class="card-title montserrat-h2 mt-2"&gt;Project Title&lt;/h2&gt;
+      &lt;h4 class="card-title montserrat-h4"&gt;Subtitle&lt;/h4&gt;
+      &lt;p class="card-text montserrat-body"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices porta porttitor. Donec volutpat ligula sapien, at ullamcorper leo pulvinar quis. Nam eget massa lectus.&lt;/p&gt;
+      &lt;div class="text-center"&gt;&lt;a href="#" class="btn btn-primary shadow-none px-5 montserrat-body"&gt;Learn More&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;!-- Project Card CSS --&gt;
+  .card {
+    border-radius: 10px;
+   }
+   
+   .pink-tag {
+     display: inline-block;
+     background-color:#FE97C8;
+     color: black;
+     font-size: 12px;
+     padding: 4px 12px;
+     border-radius: 30px;
+     margin-bottom: 0.5em;
+   }
+   
+   .blue-tag {
+     display: inline-block;
+     background-color:#97EBFE;
+     color: black;
+     font-size: 12px;
+     padding: 4px 12px;
+     border-radius: 30px;
+     margin-bottom: 0.5em;
+   }
+   
+   .green-tag {
+     display: inline-block;
+     background-color:#99FE97;
+     color: black;
+     font-size: 12px;
+     padding: 4px 12px;
+     border-radius: 30px;
+     margin-bottom: 0.5em;
+   }
+                          </code></pre><!-- Code example -->
+                      </div><!-- col -->
+                  </div><!-- row -->
+              </div><!-- container -->
+              
+
+               
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </script>
+</body>
+
+</html>

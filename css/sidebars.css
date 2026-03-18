@@ -1,0 +1,453 @@
+body, html {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  min-width: 500px;
+}
+/* 
+html {
+  height: -webkit-fill-available;
+}
+
+main {
+  height: 100vh;
+  height: -webkit-fill-available;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+} */
+
+@media (min-width: 768px) {
+  .navbar-toggler {
+      display: none;
+  }
+}
+
+
+.offcanvas, .offcanvas-md, .offcanvas-sm {
+  --bs-offcanvas-width: 250px;
+  
+}
+
+.montserrat-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-h4 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-h5 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-body-small {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-micro {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-emphasis {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/* This is your side bar and top bar color - customize */
+.bg-success{
+  --bs-bg-opacity: 1;
+  background-color: white !important;
+ 
+}
+
+/* This is your side bar right and left margin color - customize */
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: white !important; 
+ 
+}
+
+.offCanvas-home {
+  font-size: 18px;
+
+
+}
+.navbar-light{
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar {
+  padding-left: 10px;
+}
+
+/* change the hieght of the navbar icon if you want */
+.navbar-hieght{
+  height: 60px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.navbar {
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0;
+}
+
+.dropdown-toggle { outline: 0; }
+
+.btn-toggle {
+  padding: .25rem .5rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .65);
+  background-color: transparent;
+}
+
+/* this is the background color for the main areas in the sidebar- customize */
+.btn-toggle:hover,
+.btn-toggle:focus {
+  color: rgba(0, 0, 0, .85);
+   background-color: #C5D2DF; 
+}
+
+/* this is the background color for the sub areas in the sidebar- customize */
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:active {
+   background-color: #C5D2DF; 
+}
+
+.activeLink{
+  padding: .25rem .5rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .65);
+  background-color: #C5D2DF; 
+}
+
+.btn-toggle::before {
+  width: 1.25em;
+  line-height: 0;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+  transition: transform .35s ease;
+  transform-origin: .5em 50%;
+}
+
+.btn-toggle[aria-expanded="true"] {
+  color: rgba(0, 0, 0, .85);
+}
+.btn-toggle[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+.btn-toggle-nav a {
+  padding: .1875rem .5rem;
+  margin-top: .125rem;
+  margin-left: 1.25rem;
+}
+
+.btn-primary {
+  background-color: black;
+  color: white;
+  box-shadow: none;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.btn-primary:hover {
+  background-color: #C5D2DF;
+  color: black;
+  box-shadow: none;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.btn-primary:active {
+  background-color: #C5D2DF;
+  color: black;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.img-logo {
+  height: 100%;
+  width: 75%;
+}
+
+.img-logo:hover {
+  height: 100%;
+  width: 75%;
+  background-color: white !important;
+}
+
+
+.scrollarea {
+  overflow-y: auto;
+}
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+.code-background{
+  background-color: rgba(213, 213, 213, 0.363);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 1px 1px 1px;
+
+}
+
+.page-link{
+  color: grey;
+}
+
+.pagination {
+  --bs-pagination-hover-color: #222;
+  --bs-pagination-hover-bg: #C5D2DF;
+  --bs-pagination-active-color: #222;
+  --bs-pagination-active-bg: #C5D2DF;
+  --bs-pagination-active-border-color: #222;
+
+}
+
+a {
+  color: black;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-weight: 500;
+  background-color: #E6E9EC !important;
+}
+
+.pink-highlight {
+  background-color: #FE97C8; /* Change background color */
+  color: black;             /* Change text color for contrast */
+  padding: 2px 5px;         /* Add some padding */
+  border-radius: 3px;       /* Round the corners */
+}
+
+.blue-highlight {
+  background-color: #97EBFE; /* Change background color */
+  color: black;             /* Change text color for contrast */
+  padding: 2px 5px;         /* Add some padding */
+  border-radius: 3px;       /* Round the corners */
+}
+
+.green-highlight {
+  background-color: #99FE97; /* Change background color */
+  color: black;             /* Change text color for contrast */
+  padding: 2px 5px;         /* Add some padding */
+  border-radius: 3px;       /* Round the corners */
+}
+
+.foundations-hover:hover {
+  background-color:#FE97C8;
+}
+
+.color-palette {
+  height: 125px;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.gray {
+  background-color: #E6E9EC
+}
+
+.pink {
+  background-color: #FE97C8
+}
+
+.blue {
+  background-color: #97EBFE
+}
+
+.green {
+  background-color: #99FE97
+}
+
+.magenta {
+  background-color: #E2A6FF
+}
+
+.orange {
+  background-color: #FEB597
+}
+
+.yellow {
+  background-color: #FEF997
+}
+
+.violet {
+  background-color: #CBA3FF
+}
+
+.indigo {
+  background-color: #97AFFE
+}
+
+.img-placeholder {
+  height: 200px;
+  background-color: #ABABAB;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card {
+ border-radius: 10px;
+}
+
+.pink-tag {
+  display: inline-block;
+  background-color:#FE97C8;
+  color: black;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 30px;
+  margin-bottom: 0.5em;
+}
+
+.blue-tag {
+  display: inline-block;
+  background-color:#97EBFE;
+  color: black;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 30px;
+  margin-bottom: 0.5em;
+}
+
+.green-tag {
+  display: inline-block;
+  background-color:#99FE97;
+  color: black;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 30px;
+  margin-bottom: 0.5em;
+}
+
+
+/* Style for the code example container */
+.code-background {
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Set background color */
+#navbarNav {
+  background-color: white;
+  padding: 13px 20px;
+}
+
+#portfolio-navbar {
+  background-color: white !important;
+  border: 1px solid #ccc;
+  
+}
+
+
+/* Style navigation links */
+.nav-link {
+  color: black;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  font-weight: 600;
+  background-color: white !important;
+  color: black !important;
+}
+
+.nav-link:active {
+  font-weight: 600;
+  text-decoration: underline;
+  background-color: white !important;
+  color: black !important;
+}
+
+/* Style logo */
+.img-header {
+  height: 163px;
+  width: 130px;
+}
+
+/* Add space between navbar items */
+.navbar-nav .nav-item {
+  margin-left: 60px;
+}
+
+.navbar-brand:hover {
+  background-color: white !important;
+}
